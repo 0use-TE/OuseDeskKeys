@@ -1,0 +1,7 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowsChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows|flagRequestFilterKeyEvents"
+    android:canRetrieveWindowContent="true" android:canRequestFilterKeyEvents="true"
+    android:notificationTimeout="150" android:settingsActivity="io.github.ouse.deskkeys.MainActivity"
+    android:description="@string/service_description"/>
